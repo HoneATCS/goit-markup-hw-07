@@ -3,6 +3,8 @@
 .navigation-site-nav-list {
   display: flex;
   gap: 50px;
+  margin-right: 93px;
+  margin-left: 93px;
 }
 
 .navigation {
@@ -149,7 +151,7 @@ li {
 .navigation-site-nav-list {
   display: flex;
   gap: 50px;
-  
+  margin-left: 93px;
 }
 
 .navigation {

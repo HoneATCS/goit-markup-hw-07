@@ -2,7 +2,8 @@
 .navigation-site-nav-list {
     display: flex;
     gap: 50px;
-   
+    margin-right: 93px;
+    margin-left: 93px;
 }
 
 .navigation {
@@ -28,7 +29,6 @@
 
 .navigation-logos {
     color: var(--accent-color);
-
     -nev-accent: #2196f3;
 }
 
@@ -67,7 +67,6 @@ li {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
 }
 
 /*  Ефект діючої сторінки*/
