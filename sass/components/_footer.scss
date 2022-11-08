@@ -56,7 +56,9 @@
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.footer {
+    background-color: var(--bg-herro);
+}
 .footer-adres {
     font-family: "Roboto";
     font-style: normal;
@@ -110,12 +112,13 @@ img {
 .addresfoot {
     margin-top: 20px;
 }
-.contacts-footer:not(:last-child) {
-    margin-bottom: 9px;
-}
+
 
 .contacts-footer {
     gap: 9px;
+    &:not(:last-child) {
+            margin-bottom: 9px;
+        }
 }
 
 .address {
@@ -125,9 +128,7 @@ img {
     padding-left: 30px;
 }
 
-.footer {
-    background-color: var(--bg-herro);
-}
+
 .footer-icons-link {
     display: flex;
     margin-left: 72px;
@@ -232,7 +233,7 @@ img {
 
 .form-button-foot {
     gap: 10px;
-    margin-left: 93px;
+    margin-left: 115px;
 }
 
 .input-mail {
